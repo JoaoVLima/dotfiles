@@ -11,8 +11,8 @@ export PATH="$HOME/dotfiles/bin:$PATH"
 
 alias ls='ls --color=auto'
 alias grep='grep --color=auto'
+alias s='start_dwl'
 
 
-
-
+export STARSHIP_CONFIG="$HOME/dotfiles/starship/starship.toml"
 eval "$(starship init bash)"
