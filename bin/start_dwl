@@ -1,2 +1,3 @@
 #!/bin/sh
+export _JAVA_AWT_WM_NONREPARENTING=1
 slstatus -s | dwl -s "sh -c 'swaybg -i /home/lima/dotfiles/wallpaper/wall.jpg &'"
