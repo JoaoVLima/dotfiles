@@ -1,0 +1,3 @@
+#!/bin/sh
+SCREENSHOT_PATH="$HOME/pictures/screenshots"
+mkdir -p "$SCREENSHOT_PATH" && grim -g "$(slurp)" "$SCREENSHOT_PATH/$(date +'%d-%m-%Y-%H%M%S').png"
