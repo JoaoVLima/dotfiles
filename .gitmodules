@@ -1,0 +1,6 @@
+[submodule "dwl"]
+	path = dwl
+	url = https://github.com/JoaoVLima/dwl
+[submodule "slstatus"]
+	path = slstatus
+	url = https://github.com/JoaoVLima/slstatus
