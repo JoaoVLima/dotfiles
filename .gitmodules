@@ -4,3 +4,6 @@
 [submodule "slstatus"]
 	path = slstatus
 	url = https://github.com/JoaoVLima/slstatus
+[submodule "paru"]
+	path = paru
+	url = https://aur.archlinux.org/paru.git

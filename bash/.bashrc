@@ -2,6 +2,11 @@
 # ~/.bashrc
 #
 
+export HISTFILESIZE=10000
+export HISTSIZE=500
+
+export HISTCONTROL=erasedups:ignoredups:ignorespace
+
 # If not running interactively, don't do anything
 [[ $- != *i* ]] && return
 
