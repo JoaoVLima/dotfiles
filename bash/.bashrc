@@ -13,6 +13,7 @@ export HISTCONTROL=erasedups:ignoredups:ignorespace
 PS1='[\u@\h \W]\$ '
 
 export PATH="$HOME/dotfiles/bin:$PATH"
+export PATH="$HOME/.local/share/JetBrains/Toolbox/scripts:$PATH"
 
 alias ls='ls --color=auto'
 alias grep='grep --color=auto'
