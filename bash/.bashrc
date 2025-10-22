@@ -18,6 +18,7 @@ export PATH="$HOME/.local/share/JetBrains/Toolbox/scripts:$PATH"
 alias ls='ls --color=auto'
 alias grep='grep --color=auto'
 alias s='start_dwl'
+alias npm='pnpm'
 alias h='cat $HOME/.bash_history | grep --color=auto'
 alias hz='cat $HOME/.bash_history | fzf -q ""\'
 
