@@ -9,4 +9,4 @@
 	url = https://aur.archlinux.org/paru.git
 [submodule "vscode"]
 	path = vscode
-	url = git@github.com:JoaoVLima/vscode.git
+	url = https://github.com/JoaoVLima/vscode
