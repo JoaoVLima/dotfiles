@@ -1,3 +1,6 @@
 #!/bin/sh
 sudo modprobe v4l2loopback exclusive_caps=1
-ffmpeg -i http://192.168.100.18:8080/video -vf format=yuv420p -f v4l2 /dev/video0
+ffmpeg -rtsp_transport tcp -fflags nobuffer -flags low_delay \
+    -use_wallclock_as_timestamps 1 -rtbufsize 0 \
+    -max_delay 0 -i rtsp://192.168.0.18:8080/h264_pcm.sdp \
+    -vf format=yuv420p -an -f v4l2 /dev/video0
