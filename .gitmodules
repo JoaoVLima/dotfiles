@@ -10,3 +10,6 @@
 [submodule "vscode"]
 	path = vscode
 	url = https://github.com/JoaoVLima/vscode
+[submodule "dwm"]
+	path = dwm
+	url = https://github.com/JoaoVLima/dwm
